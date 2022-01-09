@@ -9,6 +9,7 @@
   color: #FFFFFF;
   margin-top: 8px;
   margin-bottom: 0;
+  align-self: flex-start;
 }
 @media screen and (max-width: 768px) {
     .lead__caption {
