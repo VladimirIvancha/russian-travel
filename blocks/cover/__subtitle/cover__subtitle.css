@@ -2,13 +2,22 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
   color: #FFFFFF;
-  width: 360px;
-  height: 66px;
+  width: 288px;
+  height: 48px;
   margin-top: 0;
   margin-bottom: 0;
   z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+    .cover__title {
+        font-size: 18px;
+        line-height: 22px;
+        width: 360px;
+        height: 66px;
+    }
 }
