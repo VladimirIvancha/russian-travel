@@ -17,3 +17,8 @@
         margin-right: 18px;
     }
 }
+
+.footer__link:hover {
+    opacity: .8;
+    transition: opacity .3s;
+}
