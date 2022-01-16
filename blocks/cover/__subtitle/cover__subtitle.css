@@ -14,10 +14,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cover__title {
-        font-size: 18px;
-        line-height: 22px;
-        width: 360px;
-        height: 66px;
-    }
+  .cover__title {
+    font-size: 18px;
+    line-height: 22px;
+    width: 360px;
+    height: 66px;
+  }
 }

@@ -1,21 +1,21 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 690px;
-    align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 690px;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-      align-self: center;
-      max-width: 720px;
-    }
+  .intro {
+    align-self: center;
+    max-width: 720px;
   }
+}
   
-  @media screen and (max-width: 720px) {
-    .intro {
-      align-self: center;
-      max-width: 90%;
-    }
+@media screen and (max-width: 720px) {
+  .intro {
+    align-self: center;
+    max-width: 90%;
   }
+}

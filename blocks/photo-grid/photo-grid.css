@@ -1,55 +1,55 @@
 .photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    margin-top: 92px;
-    gap: 16px;
-    margin-left: 48px;
-    margin-right: 48px;
-    margin-bottom: 12px;
-    position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  margin-top: 92px;
+  gap: 16px;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-bottom: 12px;
+  position: relative;
 }
 
 @media screen and (min-width: 1280px) {
-    .photo-grid {
-      min-width: 120%;
-    }
+  .photo-grid {
+    min-width: 120%;
+  }
 }
 
 @media screen and (max-width: 1279px) {
-    .photo-grid {
-      max-width: 100%;
-      grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    }
+  .photo-grid {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .photo-grid {
-      max-width: 100%;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 14px;
-    }
+  .photo-grid {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+  }
 }
 
 @media screen and (max-width: 928px) {
-    .photo-grid {
-      max-width: 100%;
-      grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-      gap: 16px;
-      margin-top: 88px;
-      margin-left: 24px;
-      margin-right: 24px;
-      margin-bottom: 15px;
-    }
+  .photo-grid {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    gap: 16px;
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 720px) {
-    .photo-grid {
-      max-width: 100%;
-      grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-      gap: 12px;
-      margin-top: 64px;
-      margin-left: 16px;
-      margin-right: 16px;
-      margin-bottom: 14px;
-    }
+  .photo-grid {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    gap: 12px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 14px;
+  }
 }
