@@ -6,6 +6,7 @@
   text-align: right;
   color: #FFFFFF;
   margin-left: 18px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
