@@ -2,25 +2,32 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 163%;
   color: #FFFFFF;
   margin-left: 16px;
   margin-right: 16px;
   margin-top: 0;
   margin-bottom: 0;
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
     margin-left: 0;
     margin-right: 0;
+    max-width: 352px;
   }
 }
 
 @media screen and (min-width: 928px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 29px;
+    max-width: 456px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .place__paragraph {
+    max-width: 484px;
   }
 }
   
