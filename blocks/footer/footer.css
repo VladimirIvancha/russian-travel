@@ -5,7 +5,6 @@
   width: 186px;
   margin: 64px 118px 24px 16px;
 }
-
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;
@@ -15,17 +14,14 @@
     margin: 88px 24px 24px 24px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .footer {
     width: 928px;
     margin: 92px 48px 24px 48px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .footer {
     width: 1184px;
   }
 }
-  

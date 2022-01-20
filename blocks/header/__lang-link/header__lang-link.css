@@ -4,17 +4,17 @@
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 18px;
   text-decoration: none;
 }
 .header__lang-link:hover {
-  opacity: .8;
-  transition: opacity .3s;
+  opacity: 0.8;
+  transition: opacity 0.3s;
 }
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 111%;
   }
-} 
+}
