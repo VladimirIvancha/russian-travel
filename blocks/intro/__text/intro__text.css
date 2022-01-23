@@ -7,3 +7,13 @@
   margin-top: 0;
   margin-bottom: 34px;
 }
+@media screen and (min-width: 1024px) {
+  .intro__text {
+    padding-right: 238px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    padding-right: 294px;
+  }
+}
