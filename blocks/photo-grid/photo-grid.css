@@ -9,7 +9,7 @@
 }
 @media screen and (min-width: 1280px) {
   .photo-grid {
-    min-width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 1279px) {

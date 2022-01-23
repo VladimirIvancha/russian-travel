@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100%;
+  min-width: 100%;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .content {
-    max-width: 984px;
+    min-width: 100%;
   }
 }
