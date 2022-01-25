@@ -1,22 +1,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  min-width: 90%;
   margin-top: 16px;
 }
 @media screen and (min-width: 768px) {
   .header {
-    width: 720px;
+    min-width: 720px;
     margin-top: 28px;
   }
 }
 @media screen and (min-width: 1024px) {
   .header {
-    width: 928px;
+    min-width: 928px;
   }
 }
 @media screen and (min-width: 1280px) {
   .header {
-    width: 1184px;
+    min-width: 1184px;
   }
 }
