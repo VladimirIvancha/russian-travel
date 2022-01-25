@@ -2,26 +2,33 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 186px;
-  margin: 64px 118px 24px 16px;
+  max-width: 186px;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+  align-self: flex-start;
 }
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 720px;
-    margin: 88px 24px 24px 24px;
+    max-width: 100%;
+    margin-top: 88px;
+    margin-bottom: 24px;
+    margin-left: 24px;
   }
 }
 @media screen and (min-width: 1024px) {
   .footer {
-    width: 928px;
-    margin: 92px 48px 24px 48px;
+    margin-top: 92px;
+    margin-left: 48px;
   }
 }
 @media screen and (min-width: 1280px) {
   .footer {
-    width: 1184px;
+    min-width: 1184px;
+    align-self: center;
+    margin-left: 0;
+    justify-content: space-between;
   }
 }

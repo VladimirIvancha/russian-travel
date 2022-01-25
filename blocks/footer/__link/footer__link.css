@@ -15,6 +15,14 @@
     margin-bottom: 0;
     margin-right: 18px;
   }
+  .footer__link:last-child {
+    margin-right: 69px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer__link:last-child {
+    margin-right: 277px;
+  }
 }
 .footer__link:hover {
   opacity: 0.8;
