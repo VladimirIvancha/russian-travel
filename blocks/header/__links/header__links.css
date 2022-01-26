@@ -2,7 +2,7 @@
   display: flex;
   align-self: flex-end;
   margin-bottom: 6px;
-}
-.header__links :first-child {
-  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
 }
